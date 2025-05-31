@@ -1,0 +1,4 @@
+[2025-05-29T15:44:01.4166673Z] Metoda=POST, IP=::1, Email=Nieznany, Body={
+  "email": "test",
+  "password": "test"
+}

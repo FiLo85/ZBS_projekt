@@ -1,0 +1,8 @@
+@WeatherChecker_FO_HostAddress = http://localhost:5214
+@access_token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJ0ZXN0QHRlc3QuY29tIiwic3ViIjoidGVzdEB0ZXN0LmNvbSIsImp0aSI6IjI3MmZlNDEyLTk1MjUtNGI5MC05Mjg5LTg5OTA1YmM5ZGFjZCIsImV4cCI6MTc0Mjc0NjkzMSwiaXNzIjoiWW91cklzc3VlciIsImF1ZCI6IllvdXJBdWRpZW5jZSJ9.Y0z6xDg_yReGWgR5HtJTTz1ZmNo-T5eyUHBSQdomYpo
+
+GET {{WeatherChecker_FO_HostAddress}}/weatherforecast/
+Authorization: Bearer {{access_token}}
+Accept: application/json
+
+###
